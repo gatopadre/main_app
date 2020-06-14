@@ -1,0 +1,54 @@
+@import 'globals_variables.scss';
+
+.card-stats{
+    background-color: $bg-card-dark;
+    color: $color-card-dark;
+    border: none;
+    .card{
+        &-body{
+            padding: 40px;
+        }
+        &-title{
+            font-family: 'Roboto', sans-serif;
+            font-size: $fnt-size-base;
+            font-weight: 600;
+        }
+        &-data{
+            min-height: 150px;
+            &-resume-col-{
+                &min{
+                    h2{
+                        border-right: 1px solid #707070;
+                        border-top: 1px solid #707070;
+                        padding: 15px 15px 0;
+                        margin-bottom: 0;
+                    }
+                    h6{
+                        font-size: $fnt-size-base;
+                    }
+                }
+                &max{
+                    h2{                        
+                        border-top: 1px solid #707070;
+                        padding: 15px 15px 0;
+                        margin-bottom: 0;
+                    }
+                    h6{
+                        font-size: $fnt-size-base;
+                    }
+                }
+            }
+        }
+    }
+    .min-btn,
+    .max-btn{
+        color: #62BE26;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+    .ind-principal{
+        font-size: 2.7rem;
+        font-weight: bold;
+        font-family: 'Oswald' , sans-serif;
+    }
+}
