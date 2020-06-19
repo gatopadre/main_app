@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import Wrapper from './components/Wrapper'
 
 function App() {
   return (
-    // <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-      <MainContent/>
-      <Footer/>
+    <div className="seba">
+      <Wrapper />
     </div>
-    // <!-- End of Content Wrapper -->    
   );
 }
 
